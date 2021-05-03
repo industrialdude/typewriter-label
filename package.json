@@ -4,7 +4,10 @@
   "description": "simple text label, where the characters are shown like someone is typing them",
   "main": "typewriter-label.js",
   "author": "industrial dude",
-  "license": "ISC",
+  "license": "MIT",
+  {
+    "repository": "github:industrialdude/typewriter-label"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
