@@ -41,11 +41,8 @@ export class TypewriterLabel extends LitElement {
   }
 
   _showNextCharacter() {
-    console.log(this._text);
-
     let nextChar = this.text.charAt(this._textIndex);
     if (!nextChar) {
-      console.log("END");
       return;
     }
 
@@ -69,8 +66,7 @@ export class TypewriterLabel extends LitElement {
         maximumWait = 400;
         break;
     }
-    // let minimumWait = (nextChar != " ") ? 150 : 300;
-    // let maximumWait = (nextChar != " ") ? 400 : 500;
+
     this._text = this._text + nextChar;
     this._textIndex++;
 
