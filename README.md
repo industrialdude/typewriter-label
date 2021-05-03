@@ -1,3 +1,5 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/typewriter-label)
+
 # typewriter-label
 
 Simple element to show a text like someone is typing.
